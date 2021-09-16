@@ -1,4 +1,4 @@
-PROJ_NAME = makeActivities
+PROJ_NAME = Activities
 
 BUILD_DIR = Build
 
