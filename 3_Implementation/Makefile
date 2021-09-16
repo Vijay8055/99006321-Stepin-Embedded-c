@@ -6,7 +6,7 @@ BUILD_DIR = Build
 SRC = Acti_main.c\
 src/Acti_1.c\
 src/Acti_2.c\
-src/Acti_3.c\
+src/Acti_3.c
 #src/Activity_4.c\
 
 
