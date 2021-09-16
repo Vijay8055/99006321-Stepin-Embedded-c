@@ -1,45 +1,57 @@
+#Requirements
 
-# Requirements
+##Introduction
 
-## Introduction
-This repository contains the code for Unit Converter implementation in C. In this implementation the code will convert the input which is given by the user , into user requirement such as weight, Length and Temprature.
+The Vehicle Monitoring is one of the major feature of our project. In this technology it is used to determine the presence of the passanger and if the passanger exist then our system starts the functionality.So in nowdays everything is becoming automated and everyone is looking for the new products to made the life easier.In our project the main aim is to design and develop the system which is capable of monitoring the passanger's existance and Heat Monitoring and Displaying.
 
-### Features:
+##Features
 
-1. Temprature's unit conversion.
-2. Length's unit conversion.
-3. Weight's unit conversion.
+Its capable of determining weather the user is exist or not in the vehicle.
+If Passanger was existed in the vehicle it will gives the indication.
+After the indication it will determine the heat.
+Driver and the passanger can have the access to modifying the temperature in the vehicle.
+The passanger can modify the temperature by watching the display as the display is given in the system
+Modular Based Programming.
 
+##SWOT Analysis- Strengths, and Weakness, Opportunities Threats
 
-### Description : 
+###Strengths
+User Friendly.
+Easy to modify the temperature value.
+The system is robust.
+Low cost.
+Modular Based Programs.
 
+###Weakness
+It's only applicable for the countries which are having having low temperature.
 
-- When user runs the code, the menu will be displayed on the screen.
-- Then the user has to select the option based on requirement.
-- Once the user selects the option, one more menu will be displayed related to selected option.
-- After selecting the required option user has to enter the values or input. 
-- According to the selection of the user the code will calculate and generates the required output.
+###Opportunities
+It can be implemented by replacing heater by air conditioners so that it will be helpful in all the countries.
 
-## SWOT Analysis
-### Strengths
-1. User friendly
-2. Reusable 
-### Weekness
-1. 
-### Oportunities
-1. innovative options
-### Threats
-1. 
-2. 
+###Threats
+Not suitable for average or high temperature environment.
 
-## 4W's and 1H's
-### Who
-The user has to give input.
-### What 
-This applications helps the people to convert the units .
-### When
-This application can be used anytime according to user requirement.
-### Where
-During any unit conversion is needed.
-### How
-By using the executable files in this repository, application can be used
+##4W's and 1'H
+WHAT : Seat and Heat Monitoring System.
+WHERE : Used in automotive industry.
+WHEN : At low temperature.
+WHY : For being healthy.
+HOW : Operates by modifying the temperature.
+##Detail requirements
+###High Level Requirements
+High Level Requirements	Description
+HLR1	Temperature Sensor
+HLR2	Switches
+HLR3	Heat Generation
+HLR4	Microcontroller
+HLR5	Software used
+
+###Low Level Requirements
+Low Level Requirements	Description
+HLR1_LLR1	Thermoelectric module
+HLR2_LLR1	Push Button
+HLR3_LLR1	ADC with PWM-fast
+HLR3_LLR2	LM35 and ADC
+HLR4_LLR1	ATmega328
+HLR5_LLR1	Code Blocks with AVR GCC compiler
+HLR5_LLR2	SimulIDE and LED
