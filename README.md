@@ -1,4 +1,5 @@
 # Seat Heating System
+Automobile cabin temperatures can drop below zero levels during harsh winter conditions. Under such freezing conditions, an automobile driver could experience localized cooling as his/her exposed body surfaces (15 to 20%) make contact with the cold seat, In this project, the sensor will sense is the driver has been seated or not and if the driver seated then he need to set the temperature accordingly. Based on that our controller will set the heater to required temperature. The Heater will generate the heat. In this project  ATmega328 microcontrolleris used along with temperature sensor, Push button, Heat generator, LED and etc.
 
 ## Git Badges
 
